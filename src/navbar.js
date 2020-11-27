@@ -2,10 +2,10 @@ import React from 'react';
 import './navbar.css';
 
 function NavBar() {
+    let num = 0;
 
     let clickToAddOne = () => {
-        let num = 0;
-        num++;
+        num += 1;
         console.log(num);
     }
 
