@@ -6,6 +6,7 @@ function NavBar() {
     let clickToAddOne = () => {
         let num = 0;
         num++;
+        console.log(num);
     }
 
     return(
