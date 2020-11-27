@@ -10,7 +10,7 @@ function app() {
   return(
     <div>
       <h1>Hello React</h1>
-      <button onClick={sayHello}>The number of clicks is {counter}</button>
+      <button onClick={sayHello}>Hello</button>
     </div>
   );
 }
