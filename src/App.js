@@ -19,6 +19,10 @@ function app() {
         <NavBar />
       </nav>
 
+      <header>
+        
+      </header>
+
       <article>
         <h1>Hello React</h1>
         <button onClick={sayHello}>Hello</button>
