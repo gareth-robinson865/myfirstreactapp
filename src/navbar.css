@@ -21,6 +21,13 @@
     align-items: center;
 }
 
+.logo-pic {
+    width: 20%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #title {
     display: flex;
     justify-content: center;

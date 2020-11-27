@@ -12,10 +12,10 @@ function NavBar() {
     return(
         <nav id="navbar">
             <div id="logo">
-                <h1>This is where the logo goes</h1>
+                <img className="logo-pic" src="../../Pictures/Kelly photo frame/Grayson.jpg"></img>
             </div>
             <div id="title">
-                <h1>This is where the title goes</h1>
+                <h1>Used to love gaming</h1>
             </div>
             <div id="navigation">
                 <button className="navs" onClick={clickToAddOne}>Press the button</button>
