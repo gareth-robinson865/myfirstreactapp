@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
+import ToDoFrom from './todoinput';
 
 let numbers = 0;
 
@@ -20,7 +21,7 @@ function app() {
       </nav>
 
       <header>
-        
+        <ToDoFrom />
       </header>
 
       <article>
