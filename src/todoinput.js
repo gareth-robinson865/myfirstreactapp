@@ -8,7 +8,7 @@ function InputToDo() {
         <div id="toDoInput">
             <form id="inputForm">
                 <input type="text" class="input" placeholder="input your todo item"></input>
-                <input type="submit"></input>
+                <input type="submit" class="submit"></input>
             </form>
         </div>
     );
