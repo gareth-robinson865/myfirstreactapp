@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 
-function navBar() {
+function NavBar() {
 
     let clickToAddOne = () => {
         let num = 0;
@@ -25,4 +25,4 @@ function navBar() {
     );
 }
 
-export default navBar
+export default NavBar
