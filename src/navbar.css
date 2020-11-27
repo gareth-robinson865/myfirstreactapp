@@ -11,6 +11,8 @@
     background: orange;
     font-weight: 600;
     font-size: 1.4em;
+    height: 10vh;
+    width: 100vw;
 }
 
 #logo {
