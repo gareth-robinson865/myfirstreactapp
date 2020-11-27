@@ -6,7 +6,7 @@ function InputToDo() {
 
     return(
         <div id="toDoInput">
-            <form>
+            <form id="inputForm">
                 <input type="text" class="input" placeholder="input your todo item"></input>
                 <input type="submit"></input>
             </form>
