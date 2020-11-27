@@ -1,4 +1,5 @@
 import React from 'react';
+import navBar from './navbar';
 
 const sayHello = () => {
   console.log("Hello");
@@ -8,10 +9,16 @@ const sayHello = () => {
 
 function app() {
   return(
-    <div>
-      <h1>Hello React</h1>
-      <button onClick={sayHello}>Hello</button>
-    </div>
+    <main>
+      <nav>
+        <navBar />
+      </nav>
+
+      <article>
+        <h1>Hello React</h1>
+        <button onClick={sayHello}>Hello</button>
+      </article>
+    </main>
   );
 }
 
