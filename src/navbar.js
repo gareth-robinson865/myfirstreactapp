@@ -12,7 +12,7 @@ function NavBar() {
     return(
         <nav id="navbar">
             <div id="logo">
-                <img className="logo-pic" src="../../Pictures/Kelly photo frame/Grayson.jpg"></img>
+                <img className="logo-pic" src="../../Pictures/Kelly photo frame/Grayson.jpg" alt="Grayson"></img>
             </div>
             <div id="title">
                 <h1>Used to love gaming</h1>
