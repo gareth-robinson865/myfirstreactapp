@@ -32,3 +32,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.navs {
+    background: orange;
+    height: 100%;
+    width: 30%;
+    border: none;
+}
