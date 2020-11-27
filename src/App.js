@@ -1,5 +1,5 @@
 import React from 'react';
-import navBar from './navbar';
+import NavBar from './navbar';
 
 const sayHello = () => {
   console.log("Hello");
@@ -11,7 +11,7 @@ function app() {
   return(
     <main>
       <nav>
-        <navBar />
+        <NavBar />
       </nav>
 
       <article>
