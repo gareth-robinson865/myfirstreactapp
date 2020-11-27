@@ -18,9 +18,9 @@ function NavBar() {
                 <h1>This is where the title goes</h1>
             </div>
             <div id="navigation">
-                <button class="navs" onClick={clickToAddOne}>Press the button</button>
-                <button class="navs" onClick={clickToAddOne}>Push the button</button>
-                <button class="navs" onClick={clickToAddOne}>Hold the button</button>
+                <button className="navs" onClick={clickToAddOne}>Press the button</button>
+                <button className="navs" onClick={clickToAddOne}>Push the button</button>
+                <button className="navs" onClick={clickToAddOne}>Hold the button</button>
             </div>
         </nav>
     );
