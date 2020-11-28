@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './navbar';
 import ToDoFrom from './todoinput';
+import ToDoViewer from './todoview';
 
 let numbers = 0;
 
@@ -25,6 +26,7 @@ function app() {
       </header>
 
       <article>
+        <ToDoViewer />
         <h1>Hello React</h1>
         <button onClick={sayHello}>Hello</button>
         <p>clicks: <a id="clicks">0</a></p>
