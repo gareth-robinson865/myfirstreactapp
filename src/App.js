@@ -25,7 +25,7 @@ function app() {
         <ToDoFrom />
       </header>
 
-      <article>
+      <article id="viewer">
         <ToDoViewer />
         <h1>Hello React</h1>
         <button onClick={sayHello}>Hello</button>

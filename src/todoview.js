@@ -5,12 +5,13 @@ function ToDoViewer () {
 
     return (
         <div id="todoviewer">
-            <h1>Things To Do</h1>
-            <ul id="list-content">
+            <div id="container">
+                <h1>Things To Do</h1>
+                    <ul id="list-content">
 
-            </ul>
+                    </ul>
+            </div>
         </div>
-
     );
 }
 

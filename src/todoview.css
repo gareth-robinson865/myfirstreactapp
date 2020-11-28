@@ -9,6 +9,24 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 70vw;
+    width: 100vw;
     height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70vw;
+    height: 90vh;
+    background-color: orange;
+}
+
+#list-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: white;
+    width: 80vw;
+    height: 80vh;
 }
