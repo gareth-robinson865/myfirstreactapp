@@ -6,10 +6,9 @@ function ToDoViewer () {
     return (
         <div id="todoviewer">
             <div id="container">
-                <h1>Things To Do</h1>
-                    <ul id="list-content">
-
-                    </ul>
+                <div id="title">
+                    <h1>Hello</h1>
+                </div>
             </div>
         </div>
     );
