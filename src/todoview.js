@@ -1,7 +1,7 @@
 import react from 'React';
 import './todoview.css';
 
-function todoviewer () {
+function ToDoViewer () {
 
     return (
         <div id="todoviewer">
@@ -11,3 +11,5 @@ function todoviewer () {
 
     );
 }
+
+export default ToDoViewer;
