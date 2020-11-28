@@ -32,4 +32,6 @@
     position: relative;
     top: 10px;
     height: 50%;
+    display: flex;
+    justify-content: center;
 }
